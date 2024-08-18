@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Real Estate Regulatory Authority">    
+        <link rel="icon" href="/reraindex/images/Rera_Design3b_03.png">
+        <meta name="author" content="">
+        <title>eCourt Case Status - Real Estate Regulatory Authority, Punjab</title>
+
+        <link href="/reraindex/css/jquery.bxslider.css" rel="stylesheet" >
+        <link href="/reraindex/css/roboto.css" rel='stylesheet' type='text/css'>   
+        <link href="/reraindex/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Custom CSS -->
+        
+        <link href="/reraindex/css/style.css" rel="stylesheet">
+        
+        <!-- Custom Fonts -->
+        <link href="/reraindex/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        
+        <link href="/reraindex/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet" />
+
+        
+        <script src="/reraindex/Scripts/jquery-1.12.4.js"></script>
+        <script src="/reraindex/Scripts/modernizr-2.5.3.js"></script> 
+              
+        <script src="/reraindex/js/jquery.bxslider.4.2.12.min.js"></script>       
+    </head>
+    <body data-base-url="../">
+        <div id="wrapper">
+            <!-- loader image -->
+            <div class="loader-gif-img">
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <div class="">
+                    <img src="/reraindex/images/ajax-loader.gif" width="200" style="background: #fff; height: auto;">
+                    <h1>Please wait...</h1>
+                </div>
+            </div>
+            <!-- /loader image -->         
+            <!--Header Section-->
+            <div class="contianer-fluid header_bg">
+                <div class="header_main">
+
+                    <!--Accessibility Options-->
+                    <div class="container">
+                        <div class="row accessibility_main">
+                            <div class="col-md-12 accessibility text-right">
+
+                                <ul class="nav float-right">
+                                    <li class="list-item"> <a href="#main-content"><img src="/reraindex/images/skip.png" class="img-fluid" alt="skip" title="Skip to main content"> </a></li>
+                                    <li class="list-item">
+                                        <a class="" title="Services" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <img src="/reraindex/images/accs.png" class="img-fluid" alt="contrast" title="Contrast">
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                            <a class="dropdown-item text-center" href="" title="Increase font size" id="increase_font">A+</a>
+                                            <a class="dropdown-item text-center" href="#" title="Reset font size" id="reset_font">A</a>
+                                            <a class="dropdown-item text-center" href="#" title="Decrease font size" id="decrease_font">A-</a>
+                                            <a class="dropdown-item text-center contrast-text" href="#" id="black-contrast" title="High contrast text">A</a>
+                                            <a class="dropdown-item text-center" style="background-color: #fff !important; color: #000 !important;" href="#" id="normal-contrast" title="Normal contrast text">A</a>
+                                        </div>
+                                    </li>
+                                    <li class="list-item"> <a href="sitemap.html"><img src="/reraindex/images/sitemap.png" class="img-fluid" alt="skip" title="Sitemap"> </a></li>
+                                    <li class="list-item font_color_white_li" title="punjabi font"><a href="#" class="font_color_white " title="ਪੰਜਾਬੀ ਸਾਈਟ ਵੇਖੋ">ਪੰਜਾਬੀ</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Logo & Emblem-->
+                    <div class="container logo_main">
+                        <div class="row">
+                            <div class="col-3 mt-sm-0 mt-2 mt-md-0 ">
+                                <a href="https://rera.punjab.gov.in/index.html"><img src="/reraindex/images/Rera_Design3b_03.png" alt="RERA logo" class="logo" title="REAL ESTATE REGULATORY AUTHORITY, PUNJAB"></a>
+                            </div>
+                            <div class="col-3 offset-6 mt-sm-0 mt-2 mt-md-2  text-right">
+                                <img src="/reraindex/images/emblem.png" class="img-fluid" alt="emblem">
+                            </div>
+                        </div>
+                        <div class="offset-md-2 col-md-8 col-sm-9 offset-sm-2 col-12 mt-md-3 logo_text_main" style="">
+                            <h4 class="logo_text text-center text-md-left">REAL ESTATE REGULATORY AUTHORITY </h4>
+                            <h4 class="logo_text2 text-center text-md-left">PUNJAB</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--Menus-->
+                <div class="col-md-12 main_menu" id="myHeader">
+                    <div class="container">
+                        
+<script>
+    $(document).ready(function () {
+        
+        var currentLoc = window.location.pathname;
+        var currentLocName = window.location.pathname.split('/');
+        var currentLink = currentLocName[3];
+        //$(document).find('li.nav-item[href="' + currentLoc + '"]').addClass('active').css({ 'color': '#fff' });
+        //$(document).find('a.dropdown-item[href="' + currentLoc + '"]').addClass('active').css({ 'color': '#fff', 'background-color': '#064576' });
+        switch (currentLink) { //.toLowerCase()) {
+            case 'agentinfo':           
+                $("#navbarDropdown3").addClass('active');
+                break;
+            case 'projectinfo':
+                $("#navbarDropdown3").addClass('active');
+                break;
+            case 'ComplaintCaseStatusInfo':
+            case 'OrderJudgementsInfo':
+            case 'OrderJudgementsAuthorityInfo':
+            case 'OrderJudgementsAOInfo':
+                $("#navbarDropdown15").addClass('active');
+                break;
+            case 'CircularPublicNoticeInfo':
+                $("#navbarcircularpublicNotice").addClass('active');
+                break;                
+            case 'regcomplaint':
+                $("#navbarMiscComplaint").addClass('active');
+                break;
+            case 'dailycauselists':
+                $("#navbarHomePage").addClass('active');
+                break;
+            default:
+                $(document).find('li.nav-item[href="' + currentLoc + '"]').addClass('active').css({ 'color': '#fff' });
+                break;
+        }
+    });
+</script>
+
+
+<nav class="navbar navbar-expand-lg navbar-light" style="padding-top: 0px;  padding-bottom: 0px;">
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="">
+            <li class="nav-item">
+                <a class="nav-link-class" href="https://rera.punjab.gov.in/index.html" id="navbarHomePage" title="Home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link-class" title="About Us" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/about-us.html" title="About RERA Punjab">About RERA Punjab</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/services.html" title="Services">Services</a>
+                    
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/who-who.html" title="Who's Who">Who's Who</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/rera-punjab-office.html" title="RERA Punjab Office">RERA Punjab Office</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link-class" title="Documents" href="#" id="navbarDropdown7">Documents</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown7">
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/RERA-acts-rules-regulations.html" title="RERA Acts, Rules and Regulations">RERA Acts, Rules and Regulations</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/rera-annual-reports.html" title="Annual Reports">Annual Reports</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/downloads-forms-templates.html" title="Forms and Templates">Forms and Templates</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/checklists.html" title="Check Lists - Registrations">Check Lists - Registrations</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/webportal-instructions.html" title="General Instructions - Online Registration">General Instructions - Online Registration</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link-class" title="Registered Applications" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Registrations
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                    <a class="dropdown-item" href="../PublicView/ProjectInfo" title="Search Registered Projects">Search Registered Projects</a>
+                    <a class="dropdown-item" href="../PublicView/AgentInfo" title="Search Registered Agents">Search Registered Agents</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/pdf/registered-projects/List_of_Registered_Projects.pdf" target="_blank" title="List of Registered Projects">List of Registered Projects <i class="fa fa-external-link"></i></a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/pdf/lapsed-projects/List_of_Lapsed_Registeration_Projects.pdf" target="_blank" title="List of Lapsed Projects (Registration Lapsed)">List of Lapsed Projects (Registration Lapsed) <i class="fa fa-external-link"></i></a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/pdf/pending-projects/List_of_PendingFiles_Projects.pdf" target="_blank" title="List of Pending Applications (Project Registrations)">List of Pending Applications (Project Registrations) <i class="fa fa-external-link"></i></a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/pdf/registered-agents/List_of_Registered_RealEstateAgents.pdf" target="_blank" title="List of Registered Real Estate Agents">List of Registered Real Estate Agents <i class="fa fa-external-link"></i></a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/fee-calculator.html" title="Fee Calculator">Fee Calculator</a>                    
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link-class" title="Complaint" href="#" id="navbarDropdown15" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Complaint
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown15">
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/downloads-complaint-forms.html" title="Download Complaint Forms">Download Complaint Forms</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/rera/account/register" target="_blank" title="File Complaint">File Complaint</a>
+                    
+                    
+                    <a class="dropdown-item" href="../courtview/ComplaintCaseStatusInfo" target="_blank" title="Search Case Status">Search Case Status</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/list-status-notices-section59.html" title="Notices under Section 59 (Chapter 8 of the Act)">Notices under Section 59 (Chapter 8 of the Act)</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/pdf/projects-undersection-penalty/List_of_PenaltyCases_Projects_UnderSectionFiveNine.pdf" title="List of projects in which penalties imposed (Chapter 8 of the Act)">List of projects in which penalties imposed (Chapter 8 of the Act)</a>
+                    <a class="dropdown-item" href="../courtview/OrderJudgementsAuthorityInfo" title="Orders/ Judgements">Orders/ Judgements</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/orders-judgements-execution.html" title="Orders/ Judgements in Execution by the Authority">Orders/ Judgements in Execution by the Authority</a>
+                    <a class="dropdown-item" href="../courtview/OrderJudgementsAOInfo" title="Orders/ Judgements by Adjudicating Officer">Orders/ Judgements by Adjudicating Officer</a>
+                                        
+                    
+                </div>
+            </li>
+            <li class="nav-item">                
+                
+                <a class="nav-link-class" title="Circulars/ Public Notices" href="../PublicNotice/CircularPublicNoticeInfo" id="navbarcircularpublicNotice">Public Notices</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link-class" title="Report Unregistered Projects" href="../GenComplaint/RegComplaint" id="navbarMiscComplaint">Report Unregistered Projects</a> 
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link-class" title="Appellate Tribunal" href="#" id="navbarDropdown51" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Appellate Tribunal
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown51">
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/appellate-tribunal.html" title="Real Estate Appellate Tribunal">Real Estate Appellate Tribunal</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/appellate-tribunal-public-notice.html" title="Public Notices by Appellate Tribunal">Public Notices by Appellate Tribunal</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/judgments-appellate-tribunal.html" title="Orders/ Judgements by Appellate Tribunal">Orders/ Judgements by Appellate Tribunal</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown" >
+                <a class="nav-link-class" title="FAQ's" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                FAQ's
+                </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/FAQ_Real_Estate_Act.html" title="RERA Act FAQs">RERA Act FAQs</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/under-construction.html" title="Punjab State RERA Rules FAQs">Punjab State RERA Rules FAQs</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/under-construction.html" title="FAQs for Web Portal">FAQs for Web Portal</a>
+                    <a class="dropdown-item" href="https://rera.punjab.gov.in/user-manuals.html" title="User Manual">User Manual</a>
+                </div>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link-class" title="Contact Us" href="https://rera.punjab.gov.in/contact-us.html">Contact Us</a>
+            </li>
+            <li class="dropdown">
+                <img src="/reraindex/images/search.png" class="dropdown-toggle" data-toggle="dropdown" style="cursor: pointer; padding: 5px 1px 1px 3px;" title="search" alt="search">
+                <ul class="dropdown-menu" style="padding:12px; right: 0px; left: auto; border-radius: 0px;">
+                    <li>
+                        <input class="form-control pull-left" placeholder="Search" type="text" style="width: 165px; height: 35px;">
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+                    </div>
+                </div>
+
+                
+
+<script type="text/javascript">
+
+    function disableBackButton() {
+        window.history.forward(-1);
+    }
+
+    setTimeout("disableBackButton()", 0);
+
+    window.onunload = function () {
+        null
+    };
+</script>
+
+<link href="/reraindex/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.min.css" rel="stylesheet" />
+<script src="/reraindex/jquery-ui-1.12.1.custom/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="/reraindex/js/jquery-ui.js"></script>
+<!-- Page level plugin CSS-->
+<link href="/reraindex/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+<script src="/reraindex/vendor/datatables/jquery.dataTables.js"></script>
+<script src="/reraindex/vendor/datatables/dataTables.bootstrap4.js"></script>
+<!-- Custom scripts for this page-->
+<script src="/reraindex/js/sb-admin-datatables.min.js"></script>
+<link href="/reraindex/css/smoothness/jquery-ui.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/reraindex/dist/css/pnotify.custom.min.css" />
+<script src="/reraindex/dist/js/pnotify.custom.min.js"></script>
+
+<link href="/reraindex/dist/css/sweetalert.css" rel="stylesheet" />
+<script src="/reraindex/dist/js/sweetalert.js"></script>
+<link href="/reraindex/dist/css/frm-rera-search.css" rel="stylesheet" />
+
+<style>
+    .dataTables_filter {
+        display: none;
+    }
+
+    .table-striped tbody tr:nth-of-type(2n) {
+        background: #fff;
+    }
+
+    .nav-tabs-custom-bar {
+        color: #064576;        
+    }
+
+    .option-tabs-custom-bar {
+        color: #7bb73f;
+        font-weight: bold;
+    }
+</style>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        var BASE_URL = $('body').attr('data-base-url');
+
+        $("#Input_SearchOptionTabFlag").val(1);        
+
+        $('.nav-tabs a').on('shown.bs.tab', function (event) {
+            var activetab = $(event.target).text();
+            var previoustab = $(event.relatedTarget).text();
+            var activetabhref = $(event.target).attr("href");
+
+            $(event.target).find("span").addClass("option-tabs-custom-bar");
+            $(event.relatedTarget).find("span").removeClass("option-tabs-custom-bar");
+
+            switch (activetabhref) {
+                case '#Party-name':
+                    $('#contentGridRequestId').attr("style", "display:block");
+                    $('#Input_PartyName_CaptchaText').val('');
+                    break;
+                case '#Case-number':
+                    $('#contentGridRequestId').attr("style", "display:block");
+                    $('#Input_CaseNumber_CaptchaText').val('');
+                    break;
+                case '#Advocate-name':
+                    $('#contentGridRequestId').attr("style", "display:block");
+                    $('#Input_CounselName_CaptchaText').val('');
+                    break;
+                case '#Complaint-type':
+                    $('#contentGridRequestId').attr("style", "display:block");
+                    $('#Input_ComplaintType_CaptchaText').val('');
+                    break;
+                case '#Know-by-return-SMS':
+                    $('#contentGridRequestId').attr("style", "display:none");
+                    $('#contentGridShownId').attr("style", "display:none");
+                    break;
+                default:
+                    alert('Oops! Something went wrong.');
+            };            
+        });
+
+        $("#CaseStatusform").on("submit", function (event) {
+            event.preventDefault();
+            $('form').validate();
+            if ($('form').valid()) {
+                var activetabhref = $('ul#casestatusTabs li').find('a.active').attr("href");
+                switch (activetabhref) {
+                    case '#Party-name':
+                        var isAllvalueValid = false;
+                        if ($('#Input_PartyName_CaptchaText').val() != '') {
+                            var varCapchaPartyName = $("#Input_PartyName_CaptchaText").val();
+                            $("#Input_SearchOptionTabFlag").val(1);                            
+                            var n = varCapchaPartyName.length;
+                            if (parseInt(n) >= parseInt(6)) {
+                                isAllvalueValid = true;
+                            }
+                            else {
+                                csAlertCustom("Invalid! Capcha Text!");                                                               
+                                isAllvalueValid = false;
+                            }
+                        }
+                        else {
+                            csAlertCustom("The mandatory (*) fields are required.");                                                        
+                            isAllvalueValid = false;
+                        };
+                        if (isAllvalueValid) {
+                            $.ajax({
+                                type: "POST",
+                                cache: false,
+                                url: BASE_URL + 'CourtView/ComplaintCaseStatusInfo',
+                                data: $('form').serialize(),
+                                beforeSend: function () {
+                                    startPreloader();
+                                },
+                                success: function (data, xhr, settings) {
+                                    stopPreloader();
+                                    $('#contentGridShownId').attr("style", "display:none");
+                                    $('#viewCaseStatusList').html(data);                                    
+                                },
+                                error: function (xhr, textStatus, error) {
+                                    stopPreloader();
+                                    $('#viewCaseStatusList').html(textStatus);
+                                }
+                            });
+                        };
+                        break;
+                    case '#Case-number':
+                        var isAllvalueValid = false;
+                        if ($('#Input_CaseNumber_CaptchaText').val() != '') {
+                            var varCapchaCaseNumber = $("#Input_CaseNumber_CaptchaText").val();
+                            $("#Input_SearchOptionTabFlag").val(2);
+                            var n = varCapchaCaseNumber.length;
+                            if (parseInt(n) >= parseInt(6)) {
+                                isAllvalueValid = true;
+                            }
+                            else {
+                                csAlertCustom("Invalid! Capcha Text!");
+                                isAllvalueValid = false;
+                            }
+                        }
+                        else {
+                            csAlertCustom("The mandatory (*) fields are required.");                            
+                            isAllvalueValid = false;
+                        };
+                        if (isAllvalueValid) {
+                            $.ajax({
+                                type: "POST",
+                                cache: false,
+                                url: BASE_URL + 'CourtView/ComplaintCaseStatusInfo',
+                                data: $('form').serialize(),
+                                beforeSend: function () {
+                                    startPreloader();
+                                },
+                                success: function (data, xhr, settings) {
+                                    stopPreloader();
+                                    $('#contentGridShownId').attr("style", "display:none");
+                                    $('#viewCaseStatusList').html(data);
+
+                                    $('.nav-tabs li:eq(0) a').removeClass('active');
+                                    $('.nav-tabs li:eq(0) a').find("span").removeClass("option-tabs-custom-bar");
+                                    $('#Party-name').removeClass('active').addClass('fade');
+                                    $('.nav-tabs li:eq(1) a').addClass('active');
+                                    $('.nav-tabs li:eq(1) a').find("span").addClass("option-tabs-custom-bar");
+                                    $('#Case-number').addClass('active').removeClass('fade');                                    
+                                },
+                                error: function (xhr, textStatus, error) {
+                                    stopPreloader();
+                                    $('#viewCaseStatusList').html(textStatus);
+                                }
+                            });
+                        };
+                        break;
+                    case '#Advocate-name':
+                        var isAllvalueValid = false;
+                        if ($('#Input_CounselName_CaptchaText').val() != '') {
+                            var varCapchaCounselName = $("#Input_CounselName_CaptchaText").val();
+                            $("#Input_SearchOptionTabFlag").val(3);
+                            var n = varCapchaCounselName.length;
+                            if (parseInt(n) >= parseInt(6)) {
+                                isAllvalueValid = true;
+                            }
+                            else {
+                                csAlertCustom("Invalid! Capcha Text!");
+                                isAllvalueValid = false;
+                            }
+                        }
+                        else {
+                            csAlertCustom("The mandatory (*) fields are required.");
+                            isAllvalueValid = false;
+                        };
+                        if (isAllvalueValid) {
+                            $.ajax({
+                                type: "POST",
+                                cache: false,
+                                url: BASE_URL + 'CourtView/ComplaintCaseStatusInfo',
+                                data: $('form').serialize(),
+                                beforeSend: function () {
+                                    startPreloader();
+                                },
+                                success: function (data, xhr, settings) {
+                                    stopPreloader();
+                                    $('#contentGridShownId').attr("style", "display:none");
+                                    $('#viewCaseStatusList').html(data);
+                                    
+                                    $('.nav-tabs li:eq(0) a').removeClass('active');
+                                    $('.nav-tabs li:eq(0) a').find("span").removeClass("option-tabs-custom-bar");
+                                    $('#Party-name').removeClass('active').addClass('fade');
+                                    $('.nav-tabs li:eq(2) a').addClass('active');
+                                    $('.nav-tabs li:eq(2) a').find("span").addClass("option-tabs-custom-bar");
+                                    $('#Advocate-name').addClass('active').removeClass('fade');                                    
+                                },
+                                error: function (xhr, textStatus, error) {
+                                    stopPreloader();
+                                    $('#viewCaseStatusList').html(textStatus);
+                                }
+                            });
+                        };
+                        break;
+                    case '#Complaint-type':
+                        var isAllvalueValid = false;
+                        if ($('#Input_ComplaintType_CaptchaText').val() != '') {
+                            var varCapchaComplaintType = $("#Input_ComplaintType_CaptchaText").val();
+                            $("#Input_SearchOptionTabFlag").val(4);
+                            var n = varCapchaComplaintType.length;
+                            if (parseInt(n) >= parseInt(6)) {
+                                isAllvalueValid = true;
+                            }
+                            else {
+                                csAlertCustom("Invalid! Capcha Text!");
+                                isAllvalueValid = false;
+                            }
+                        }
+                        else {
+                            csAlertCustom("The mandatory (*) fields are required.");
+                            isAllvalueValid = false;
+                        };
+                        if (isAllvalueValid) {
+                            $.ajax({
+                                type: "POST",
+                                cache: false,
+                                url: BASE_URL + 'CourtView/ComplaintCaseStatusInfo',
+                                data: $('form').serialize(),
+                                beforeSend: function () {
+                                    startPreloader();
+                                },
+                                success: function (data, xhr, settings) {
+                                    stopPreloader();
+                                    $('#contentGridShownId').attr("style", "display:none");
+                                    $('#viewCaseStatusList').html(data);
+                                    
+                                    $('.nav-tabs li:eq(0) a').removeClass('active');
+                                    $('.nav-tabs li:eq(0) a').find("span").removeClass("option-tabs-custom-bar");
+                                    $('#Party-name').removeClass('active').addClass('fade');
+                                    $('.nav-tabs li:eq(3) a').addClass('active');
+                                    $('.nav-tabs li:eq(3) a').find("span").addClass("option-tabs-custom-bar");
+                                    $('#Complaint-type').addClass('active').removeClass('fade');                                    
+                                },
+                                error: function (xhr, textStatus, error) {
+                                    stopPreloader();
+                                    $('#viewCaseStatusList').html(textStatus);
+                                }
+                            });
+                        };
+                        break;
+                    case '#Know-by-return-SMS':
+                        alert('Invalid! Something went wrong.');
+                        break;
+                    default:
+                        alert('Oops! Something went wrong.');
+                };
+                $(this).parents("form").submit();
+            } else {
+                return false;
+            };
+        });
+    });
+
+    function csAlertCustom(strmessage) {
+        $(document).ready(function () {
+            swal({
+                title: "Message",
+                text: strmessage,
+                type: "warning"
+            });
+        });
+    };
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('table#dataTableSearchCaseStatus').dataTable({
+            responsive: true,
+            "pageLength": 15,
+            "lengthMenu": [[15, 30, 50, 75, 100], [15, 30, 50, 75, 100]],
+            'aoColumnDefs': [{
+                'bSortable': false,
+                'aTargets': [6]
+            }],
+            "aaSorting": [],
+            "language": {
+                "info": "Showing _START_ to _END_ of _TOTAL_ records",
+                "lengthMenu": "Show _MENU_ records"
+            },
+            "pagingType": "full_numbers"
+        });
+
+        var BASE_URL = $('body').attr('data-base-url');
+        $(document).on('click', 'a.capcha-refresh', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: "GET",
+                url: BASE_URL + 'CourtView/FileBase64_CaseStatusNumberImageCpacha',
+                contentType: "image/png",
+                beforeSend: function () {
+                    startPreloader();
+                },
+                success: function (data) {
+                    stopPreloader();
+                    $(".capcha-badge").attr("src", data);
+                },
+                error: function () {
+                    stopPreloader();
+                    alert("Error! Invalid Refresh.");
+                }
+            });
+        });
+
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var stack_bottomright = {
+            "dir1": "up",
+            "dir2": "left",
+            "firstpos1": 15,
+            "firstpos2": 25
+        };
+        new PNotify({
+            title: 'Note',
+            text: 'The search of case status of ‘ON-LINE’ complaint(s) through web-portal is available w.e.f. 13 April, 2018 and also list of Orders & Judgements for both ‘OFF-LINE’ and ‘ON-LINE’ complaint(s) are available on same web-portal under tab "Complaint".',
+            hide: false,
+            icon: false,
+            type: 'info',            
+            addclass: "stack-bottomright",
+            stack: stack_bottomright
+            //nonblock: {
+            //    nonblock: true
+            //}
+        });
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        var vcheckregdproject = $("input[name='Input_ComplainantRespondentFlag']:checked").val();
+        if (vcheckregdproject == '1') {
+            $("#divComplainantName").attr("style", "display:block");
+            $("#divRespondentName").attr("style", "display:none");
+            $('#Input_RespondentName').val("");
+        }
+        else if (vcheckregdproject == '2') {
+            $("#divComplainantName").attr("style", "display:none");
+            $("#divRespondentName").attr("style", "display:block");
+            $('#Input_ComplainantName').val("");
+        };
+
+        $(document).on('click', '.radio-crnameflag', function (e) {            
+            if (this.value == '1') {
+                $("#divComplainantName").attr("style", "display:block");
+                $("#divRespondentName").attr("style", "display:none");
+                $('#Input_RespondentName').val("");                
+            }
+            else if (this.value == '2') {
+                $("#divComplainantName").attr("style", "display:none");
+                $("#divRespondentName").attr("style", "display:block");
+                $('#Input_ComplainantName').val("");                
+            }            
+        });
+
+        $("#Input_PartyName_HearingBenchCode").change(function () {            
+            var drpVal = $('#Input_PartyName_HearingBenchCode option:selected').val();
+            $('#Input_PartyName_HearingBenchName').val(drpVal);
+        });
+        $("#Input_CaseNumber_HearingBenchCode").change(function () {
+            var drpVal = $('#Input_CaseNumber_HearingBenchCode option:selected').val();
+            $('#Input_CaseNumber_HearingBenchName').val(drpVal);
+        });
+        $("#Input_CounselName_HearingBenchCode").change(function () {
+            var drpVal = $('#Input_CounselName_HearingBenchCode option:selected').val();
+            $('#Input_CounselName_HearingBenchName').val(drpVal);
+        });
+        $("#Input_ComplaintType_HearingBenchCode").change(function () {
+            var drpVal = $('#Input_ComplaintType_HearingBenchCode option:selected').val();
+            $('#Input_ComplaintType_HearingBenchName').val(drpVal);
+        });
+    });
+</script>
+
+<!--breadcrumbs-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12  text-right">
+            <nav class="breadcrumb float-right">
+                <span class="breadcrumb-text"> You are here&nbsp;:&nbsp; </span>
+                <a class="breadcrumb-item" href="javascript:void(0);">Home</a>
+                <a class="breadcrumb-item" href="javascript:void(0);">Complaint</a>
+                <a class="breadcrumb-item active" href="javascript:void(0);">Search Case Status</a>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<!--Main Content-->
+<form action="/reraindex/CourtView/ComplaintCaseStatusInfo" enctype="multipart/form-data" id="CaseStatusform" method="post"><input name="__RequestVerificationToken" type="hidden" value="X3jpwwIh7L_zl4JeFw6IsxX-zjeUiyNquv3GuoSxFS9l8H0YPh9KdOfvFkNE5Oey57CIRFdflBfKB3OYYGIW-R8oBWXvrAZGW8-iHGburkk1" /><input data-val="true" data-val-number="The field Search of Case Options must be a number." data-val-required="The Search of Case Options field is required." id="Input_SearchOptionTabFlag" name="Input_SearchOptionTabFlag" type="hidden" value="0" /><input data-val="true" data-val-required="The Complaint Hearing Bench field is required." id="Input_PartyName_HearingBenchName" name="Input_PartyName_HearingBenchName" type="hidden" value="" /><input data-val="true" data-val-required="The Complaint Hearing Bench field is required." id="Input_CaseNumber_HearingBenchName" name="Input_CaseNumber_HearingBenchName" type="hidden" value="" /><input data-val="true" data-val-required="The Complaint Hearing Bench field is required." id="Input_CounselName_HearingBenchName" name="Input_CounselName_HearingBenchName" type="hidden" value="" /><input data-val="true" data-val-required="The Complaint Hearing Bench field is required." id="Input_ComplaintType_HearingBenchName" name="Input_ComplaintType_HearingBenchName" type="hidden" value="" />    <div class="search-header">
+        <div class="text-centre search-background">
+            <div class="container main_content internal_page search-page" id="main-content">
+                <div class="col-md-12">&nbsp;</div>
+                <h5 class="internal_page_heading">Search Case Status</h5>
+
+                <div class="container">
+
+                    <ul class="nav nav-tabs" id="casestatusTabs">
+                        <li class="nav-item">
+                            <a class="nav-link nav-tabs-custom-bar active" data-toggle="tab" href="#Party-name"><span class="option-tabs-custom-bar">Party Name</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-tabs-custom-bar" data-toggle="tab" href="#Case-number"><span>Case Number</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-tabs-custom-bar" data-toggle="tab" href="#Advocate-name"><span>Counsel/Rep Name</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-tabs-custom-bar" data-toggle="tab" href="#Complaint-type"><span>Complaint Type</span></a>
+                        </li>                        
+                        
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <!--   Party Name   -->
+                        <div class="tab-pane active" id="Party-name">
+                            <div id="main-content">
+                                <div class="row" style="margin-top: 20px;">
+                                    <div class="col-sm-6">                                        
+                                        <label for="benchName" class="option-tabs-mand">Court/ Bench Name</label>
+<select class="form-control" data-val="true" data-val-required="The Complaint Hearing Bench field is required." id="Input_PartyName_HearingBenchCode" name="Input_PartyName_HearingBenchCode"><option value="">--Select--</option>
+<option value="1210">Adjudicating Officer</option>
+<option value="1206">Authority, RERA Punjab</option>
+<option value="1208">Chairperson</option>
+<option value="1209">Member</option>
+<option value="1207">Sh. Ajay Pal Singh, Member</option>
+<option value="1205">Sh. Balbir Singh, Adjudicating Officer</option>
+<option value="1212">Sh. Rakesh Kumar Goyal, Member</option>
+<option value="1211">Sh. Satya Gopal, Chairperson</option>
+<option value="9999">Yet to be Entrusted</option>
+</select><span class="field-validation-valid text-danger" data-valmsg-for="Input_PartyName_HearingBenchCode" data-valmsg-replace="true"></span>                                    </div>                                    
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-6">
+                                        <label for="searchcategorytype">Name of </label>
+                                        <label class="form-group checkbox-inline">
+                                            <input checked="checked" class="radio-crnameflag" data-val="true" data-val-number="The field Input_ComplainantRespondentFlag must be a number." data-val-required="The Input_ComplainantRespondentFlag field is required." id="chkCRNameFlagC" name="Input_ComplainantRespondentFlag" type="radio" value="1" /> Complainant
+                                            <input class="radio-crnameflag" id="chkCRNameFlagR" name="Input_ComplainantRespondentFlag" type="radio" value="2" /> Respondent                                            
+                                        </label>
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_ComplainantRespondentFlag" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-6" id="divComplainantName" data-toggle="tooltip" data-placement="right" title="Name of complainant to be provided under which the complaint filed.">
+                                        <label for="complainantName" class="option-tabs-mand">Complainant Name</label>
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-length="Complainant name length must be between 3 to 90" data-val-length-max="90" data-val-length-min="3" data-val-regex="Special characters are not allowed. Maximum length is 90" data-val-regex-pattern="^[0-9a-zA-Z&#39;&#39;-&#39;-.\s]{1,90}$" data-val-required="The Name of Complainant field is required." id="Input_ComplainantName" name="Input_ComplainantName" placeholder="Enter Name" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_ComplainantName" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="col-sm-6" id="divRespondentName" style="display:none;" data-toggle="tooltip" data-placement="right" title="Name of respondent to be provided under which the complaint filed.">
+                                        <label for="respondentName" class="option-tabs-mand">Respondent Name</label>
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-length="Respondent name length must be between 3 to 90" data-val-length-max="90" data-val-length-min="3" data-val-regex="Special characters are not allowed. Maximum length is 90" data-val-regex-pattern="^[0-9a-zA-Z&#39;&#39;-&#39;-.\s]{1,90}$" data-val-required="The Name of Respondent field is required." id="Input_RespondentName" name="Input_RespondentName" placeholder="Enter Name" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_RespondentName" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="filingYear" class="option-tabs-mand">Complaint Filing Year</label>
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-number="The field Complaint Filing Year (Year of Case/ Complaint) must be a number." data-val-range="Enter Year between 2016 to 2050" data-val-range-max="2050" data-val-range-min="2016" data-val-required="The Complaint Filing Year (Year of Case/ Complaint) field is required." id="Input_PartyName_Complaint_FilingYear_YearOfCase" name="Input_PartyName_Complaint_FilingYear_YearOfCase" placeholder="Enter Year" type="number" value="0" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_PartyName_Complaint_FilingYear_YearOfCase" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-6">
+                                        <label for="searchcategorytype">Select Option:</label>
+                                        <label class="form-group checkbox-inline">
+                                            <input checked="checked" class="radio-partynamecategoryflag" data-val="true" data-val-number="The field Search For (Pending/ Disposed Of/ Both) must be a number." data-val-required="The Search For (Pending/ Disposed Of/ Both) field is required." id="chkPartyNameCategoryFlagPN" name="Input_PartyName_SearchFor_CategoryFlag" type="radio" value="51" /> Pending
+                                            <input class="radio-partynamecategoryflag" id="chkPartyNameCategoryFlagDP" name="Input_PartyName_SearchFor_CategoryFlag" type="radio" value="52" /> Disposed
+                                            <input class="radio-partynamecategoryflag" id="chkPartyNameCategoryFlagBT" name="Input_PartyName_SearchFor_CategoryFlag" type="radio" value="53" /> Both
+                                        </label>
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_PartyName_SearchFor_CategoryFlag" data-valmsg-replace="true"></span>                                        
+                                    </div>                                    
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-2">
+                                        <img class="capcha-badge" src='/reraindex/courtview/FileView_CaseStatusNumberImageCpacha' />
+                                        <a href="javascript:void(0);" class="btn btn-outline btn-primary capcha-refresh" title="Refresh?"><i class="fa fa-refresh" aria-hidden="true"></i></a>                                        
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-length="Maximum length is 10" data-val-length-max="10" data-val-regex="Special characters are not allowed." data-val-regex-pattern="^[0-9a-zA-Z\s]{1,10}$" data-val-required="The Captcha Text field is required." id="Input_PartyName_CaptchaText" name="Input_PartyName_CaptchaText" placeholder="Enter Captcha Text" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_PartyName_CaptchaText" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>                             
+                            </div>
+                        </div>
+                        <!--   Case Number   -->
+                        <div class="tab-pane fade" id="Case-number">
+                            <div id="main-content"> 
+                                <div class="row" style="margin-top: 20px;">
+                                    <div class="col-sm-6">
+                                        <label for="benchName" class="option-tabs-mand">Court/ Bench Name</label>
+<select class="form-control" data-val="true" data-val-required="The Complaint Hearing Bench field is required." id="Input_CaseNumber_HearingBenchCode" name="Input_CaseNumber_HearingBenchCode"><option value="">--Select--</option>
+<option value="1210">Adjudicating Officer</option>
+<option value="1206">Authority, RERA Punjab</option>
+<option value="1208">Chairperson</option>
+<option value="1209">Member</option>
+<option value="1207">Sh. Ajay Pal Singh, Member</option>
+<option value="1205">Sh. Balbir Singh, Adjudicating Officer</option>
+<option value="1212">Sh. Rakesh Kumar Goyal, Member</option>
+<option value="1211">Sh. Satya Gopal, Chairperson</option>
+<option value="9999">Yet to be Entrusted</option>
+</select><span class="field-validation-valid text-danger" data-valmsg-for="Input_CaseNumber_HearingBenchCode" data-valmsg-replace="true"></span>                                    </div>
+                                </div>                              
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-6" data-toggle="tooltip" data-placement="right" title="Diary Number to be provided under which the complaint filed. e.g. GCNoXXXXXXXX">
+                                        <label for="complaintNumber" class="option-tabs-mand">Case/ Complaint Number</label>
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-length="Case/ Diary Number length must be between 12 to 90" data-val-length-max="90" data-val-length-min="12" data-val-regex="Special characters are not allowed. Maximum length is 90" data-val-regex-pattern="^[0-9a-zA-Z&#39;&#39;-&#39;-.\s]{1,90}$" data-val-required="The Case/ Diary Number field is required." id="Input_ComplaintDiaryNumber" name="Input_ComplaintDiaryNumber" placeholder="Enter Case/ Complaint Number" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_ComplaintDiaryNumber" data-valmsg-replace="true"></span>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="caseYear" class="option-tabs-mand">Year of Case/ Complaint</label>
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-number="The field Complaint Filing Year (Year of Case/ Complaint) must be a number." data-val-range="Enter Year between 2016 to 2050" data-val-range-max="2050" data-val-range-min="2016" data-val-required="The Complaint Filing Year (Year of Case/ Complaint) field is required." id="Input_CaseNumber_Complaint_FilingYear_YearOfCase" name="Input_CaseNumber_Complaint_FilingYear_YearOfCase" placeholder="Enter Year" type="number" value="0" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_CaseNumber_Complaint_FilingYear_YearOfCase" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 25px;">
+                                    <div class="col-sm-2">
+                                        <img class="capcha-badge" src='/reraindex/courtview/FileView_CaseStatusNumberImageCpacha' />
+                                        <a href="javascript:void(0);" class="btn btn-outline btn-primary capcha-refresh" title="Refresh?"><i class="fa fa-refresh" aria-hidden="true"></i></a>                                        
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-length="Maximum length is 10" data-val-length-max="10" data-val-regex="Special characters are not allowed." data-val-regex-pattern="^[0-9a-zA-Z\s]{1,10}$" data-val-required="The Captcha Text field is required." id="Input_CaseNumber_CaptchaText" name="Input_CaseNumber_CaptchaText" placeholder="Enter Captcha Text" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_CaseNumber_CaptchaText" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--   Advocate Name   -->
+                        <div class="tab-pane fade" id="Advocate-name">
+                            <div id="main-content">
+                                <div class="row" style="margin-top: 20px;">
+                                    <div class="col-sm-6">
+                                        <label for="benchName" class="option-tabs-mand">Court/ Bench Name</label>
+<select class="form-control" data-val="true" data-val-required="The Complaint Hearing Bench field is required." id="Input_CounselName_HearingBenchCode" name="Input_CounselName_HearingBenchCode"><option value="">--Select--</option>
+<option value="1210">Adjudicating Officer</option>
+<option value="1206">Authority, RERA Punjab</option>
+<option value="1208">Chairperson</option>
+<option value="1209">Member</option>
+<option value="1207">Sh. Ajay Pal Singh, Member</option>
+<option value="1205">Sh. Balbir Singh, Adjudicating Officer</option>
+<option value="1212">Sh. Rakesh Kumar Goyal, Member</option>
+<option value="1211">Sh. Satya Gopal, Chairperson</option>
+<option value="9999">Yet to be Entrusted</option>
+</select><span class="field-validation-valid text-danger" data-valmsg-for="Input_CounselName_HearingBenchCode" data-valmsg-replace="true"></span>                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-6" data-toggle="tooltip" data-placement="right" title="Name of counsel/ representative to be provided under which the complaint filed.">
+                                        <label for="counselrepName" class="option-tabs-mand">Counsel/Rep Name</label>
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-length="Counsel/ Rep Name length must be between 3 to 90" data-val-length-max="90" data-val-length-min="3" data-val-regex="Special characters are not allowed. Maximum length is 90" data-val-regex-pattern="^[0-9a-zA-Z&#39;&#39;-&#39;-.\s]{1,90}$" data-val-required="The Counsel/ Representative Name field is required." id="Input_AuthorizedRepresentativeCounselName" name="Input_AuthorizedRepresentativeCounselName" placeholder="Enter Name" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_AuthorizedRepresentativeCounselName" data-valmsg-replace="true"></span>
+                                    </div>                                    
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-6">
+                                        <label for="searchcategorytype">Select Option:</label>
+                                        <label class="form-group checkbox-inline">
+                                            <input checked="checked" class="radio-advocatenamecategoryflag" data-val="true" data-val-number="The field Search For (Pending/ Disposed Of/ Both) must be a number." data-val-required="The Search For (Pending/ Disposed Of/ Both) field is required." id="chkAdvocateNameCategoryFlagPN" name="Input_CounselName_SearchFor_CategoryFlag" type="radio" value="51" /> Pending
+                                            <input class="radio-advocatenamecategoryflag" id="chkAdvocateNameCategoryFlagDP" name="Input_CounselName_SearchFor_CategoryFlag" type="radio" value="52" /> Disposed
+                                            <input class="radio-advocatenamecategoryflag" id="chkAdvocateNameCategoryFlagBT" name="Input_CounselName_SearchFor_CategoryFlag" type="radio" value="53" /> Both
+                                        </label>
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_CounselName_SearchFor_CategoryFlag" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-2">
+                                        <img class="capcha-badge" src='/reraindex/courtview/FileView_CaseStatusNumberImageCpacha' />
+                                        <a href="javascript:void(0);" class="btn btn-outline btn-primary capcha-refresh" title="Refresh?"><i class="fa fa-refresh" aria-hidden="true"></i></a>                                        
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-length="Maximum length is 10" data-val-length-max="10" data-val-regex="Special characters are not allowed." data-val-regex-pattern="^[0-9a-zA-Z\s]{1,10}$" data-val-required="The Captcha Text field is required." id="Input_CounselName_CaptchaText" name="Input_CounselName_CaptchaText" placeholder="Enter Captcha Text" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_CounselName_CaptchaText" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--   Act Type   -->
+                        <div class="tab-pane fade" id="Complaint-type">
+                            <div id="main-content">
+                                <div class="row" style="margin-top: 20px;">
+                                    <div class="col-sm-6">
+                                        <label for="benchName" class="option-tabs-mand">Court/ Bench Name</label>
+<select class="form-control" data-val="true" data-val-required="The Complaint Hearing Bench field is required." id="Input_ComplaintType_HearingBenchCode" name="Input_ComplaintType_HearingBenchCode"><option value="">--Select--</option>
+<option value="1210">Adjudicating Officer</option>
+<option value="1206">Authority, RERA Punjab</option>
+<option value="1208">Chairperson</option>
+<option value="1209">Member</option>
+<option value="1207">Sh. Ajay Pal Singh, Member</option>
+<option value="1205">Sh. Balbir Singh, Adjudicating Officer</option>
+<option value="1212">Sh. Rakesh Kumar Goyal, Member</option>
+<option value="1211">Sh. Satya Gopal, Chairperson</option>
+<option value="9999">Yet to be Entrusted</option>
+</select><span class="field-validation-valid text-danger" data-valmsg-for="Input_ComplaintType_HearingBenchCode" data-valmsg-replace="true"></span>                                    </div>
+                                </div> 
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-6">
+
+                                        <label for="complaintType" class="option-tabs-mand">Complaint Type</label>
+                                        <select class="form-control" data-val="true" data-val-required="The Complaint Type field is required." id="Input_ComplaintType" name="Input_ComplaintType"><option value="0">--Select--</option>
+<option value="Form-M">Form-M</option>
+<option value="Form-N">Form-N</option>
+</select>                                        
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_ComplaintType" data-valmsg-replace="true"></span>
+                                    </div> 
+                                    <div class="col-sm-6">
+                                        <label for="complaintcaseYear" class="option-tabs-mand">Year of Case/ Complaint</label>
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-number="The field Complaint Filing Year (Year of Case/ Complaint) must be a number." data-val-range="Enter Year between 2016 to 2050" data-val-range-max="2050" data-val-range-min="2016" data-val-required="The Complaint Filing Year (Year of Case/ Complaint) field is required." id="Input_ComplaintType_Complaint_FilingYear_YearOfCase" name="Input_ComplaintType_Complaint_FilingYear_YearOfCase" placeholder="Enter Year" type="number" value="0" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_ComplaintType_Complaint_FilingYear_YearOfCase" data-valmsg-replace="true"></span>
+                                    </div>                                   
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-6">
+                                        <label for="searchcategorytype">Select Option:</label>
+                                        <label class="form-group checkbox-inline">
+                                            <input checked="checked" class="radio-complainttypecategoryflag" data-val="true" data-val-number="The field Search For (Pending/ Disposed Of/ Both) must be a number." data-val-required="The Search For (Pending/ Disposed Of/ Both) field is required." id="chkComplaintTypeCategoryFlagPN" name="Input_ComplaintType_SearchFor_CategoryFlag" type="radio" value="51" /> Pending
+                                            <input class="radio-complainttypecategoryflag" id="chkComplaintTypeCategoryFlagDP" name="Input_ComplaintType_SearchFor_CategoryFlag" type="radio" value="52" /> Disposed                                            
+                                        </label>
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_ComplaintType_SearchFor_CategoryFlag" data-valmsg-replace="true"></span>                                        
+                                    </div>
+                                </div>
+                                <div class="row" style="margin-top: 10px;">
+                                    <div class="col-sm-2">
+                                        <img class="capcha-badge" src='/reraindex/courtview/FileView_CaseStatusNumberImageCpacha' />                                        
+                                        <a href="javascript:void(0);" class="btn btn-outline btn-primary capcha-refresh" title="Refresh?"><i class="fa fa-refresh" aria-hidden="true"></i></a>                                        
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <input autocomplete="off" class="form-control text-box single-line" data-val="true" data-val-length="Maximum length is 10" data-val-length-max="10" data-val-regex="Special characters are not allowed." data-val-regex-pattern="^[0-9a-zA-Z\s]{1,10}$" data-val-required="The Captcha Text field is required." id="Input_ComplaintType_CaptchaText" name="Input_ComplaintType_CaptchaText" placeholder="Enter Captcha Text" type="text" value="" />
+                                        <span class="field-validation-valid text-danger" data-valmsg-for="Input_ComplaintType_CaptchaText" data-valmsg-replace="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <!--   Know By Return SMS   -->
+                        
+                    </div>     
+                    <div class="row" id="contentGridRequestId">                        
+                        <div class="col-sm-12" style="text-align:right; margin-top: 10PX;">
+                            <input type="submit" style="" class="btn search-button" name="submit" id="btn_SearchCaseStatusSubmit" value="Search">
+                            &nbsp;
+                            <a class="btn btn-warning" href="/reraindex/CourtView/ComplaintCaseStatusInfo" id="btnCaseStatusClear">Clear</a>
+                        </div>                        
+                    </div>
+
+                </div>                
+                <div class="table-responsive whole-table" id="contentGridShownId">
+                    <table class="table table-bordered table-responsive table-hover" style="font-size: 0.88rem; width: 100%;" id="dataTableSearchCaseStatus" cellspacing="0">
+                        <thead>
+                            <tr class="mygrid_row tbl-head-row">
+                                <th class="tbl-head-content" width="3%">Sr.No</th>
+                                <th class="tbl-head-content" style="text-align:left; width:15%">Complaint Number</th>
+                                <th class="tbl-head-content" style="text-align:left; width:16%;">Complainant Name</th>
+                                <th class="tbl-head-content" style="text-align:left; width:16%;">Respondent Name</th>
+                                <th class="tbl-head-content" style="text-align:center; width:18%;">Bench</th>
+                                <th class="tbl-head-content" align="center" width="20%" id="rowheaderDateTitle">Pending For/ Date of Decision</th>
+                                <th class="tbl-head-content" align="center" width="12%">View Details</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                        </tfoot>
+                        <tbody> 
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="viewCaseStatusList">
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-md-12">&nbsp;</div>
+                <div class="col-md-12 text-justify font-italic small">
+                    <b>
+                        <span class="badge-low-warning custom-badge"><i class="fa fa-hand-o-right"></i> Note: </span>
+                        <mark>
+                            The complaints/ diary number with asterisk (*) sign was registered before the online system of the Authority became functional. The status of case for such complaints/ diary number will be available soon on web-portal and also list of Orders & Judgements for both ‘OFF-LINE’ and ‘ON-LINE’ complaint(s) are available on same web-portal under tab "Complaint".
+                        </mark>
+                    </b>
+                </div>
+                <div class="col-md-12">&nbsp;</div>
+
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+ 
+                               
+                <!--Footer Section-->
+                <div class="row footer_main navbar-bottom">
+                    <div class="container footer_main2">
+                        <div class="row">
+                            
+<div class="text-md-center col-md-12">
+    <ul class="list-inline footer">
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/index.html" class="footer-nav-text" title="home">Home</a> </li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/contact-us.html" title="contact us">Contact Us</a></li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/term-of-use.html" title="term of use">Terms of Use</a></li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/privacy-policy.html" title="privacy policy">Privacy Policy</a></li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/gallery.html" title="Gallery">Gallery</a></li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/helpdesk.html" title="disclaimer">Helpdesk</a></li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/disclaimer.html" title="disclaimer">Disclaimer</a></li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/feedback.html" title="feedback">Feedback</a> </li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/job-careers.html" title="Careers">Careers</a> </li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/tender-documents.html" title="Tenders">Tenders</a> </li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/rti.html" title="rti">RTI</a> </li>
+        <li class="list-inline-item footer-links"><a href="https://rera.punjab.gov.in/sitemap.html" title="sitemap">Sitemap</a> </li>
+    </ul>
+</div>
+
+
+
+                        </div>
+                        <div class="row">
+                            <div class="text-center col-md-12">
+                                <ul class="list-inline copyright">
+                                    <li class="list-inline-item">&copy; 2023 RERA Punjab. All Rights Reserved</li>
+                                    <li class="list-inline-item">|</li>
+                                    <li class="list-inline-item">Designed and Developed by C-DAC Mohali</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            
+<div class="text-center col-12">
+    <ul class="list-inline copyright">
+        <li class="list-inline-item"><a href="https://www.facebook.com/" target="blank" title="facebook"><img src="/reraindex/images/fb.png" alt="facebook" /></a> </li>
+        <li class="list-inline-item"><a href="https://www.twitter.com/" target="blank" title="twitter"><img src="/reraindex/images/twt.png" alt="twitter" /></a></li>
+        <li class="list-inline-item"><a href="https://www.youtube.com/" target="blank" title="youtube"><img src="/reraindex/images/yt.png" alt="youtube" /></a></li>
+        <li class="list-inline-item"><a href="https://validator.w3.org/" target="blank" title="W3C"><img src="/reraindex/images/w3c.gif" alt="W3C" /></a></li>
+        <li class="list-inline-item"><a href="https://html5.validator.nu/" target="blank" title="Html5"><img src="/reraindex/images/html5.png" style="width:40px; height:40px;" alt="HTML5" /></a></li>
+    </ul>
+</div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <!--Footer Section-->
+            </div>
+            <!--End Header Section-->
+
+        </div>
+        <!-- /#wrapper -->
+        
+        <!-- Custom Theme JavaScript -->
+        
+        <script src="/reraindex/js/popper.js"></script>
+        <script src="/reraindex/js/bootstrap.js"></script>
+        <script src="/reraindex/js/bootstrap.min.js" type="text/javascript"></script>        
+        
+
+        
+
+        
+    <script src="/reraindex/Scripts/jquery.validate.min.js"></script>
+<script src="/reraindex/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+
+    
+
+
+
+        <script>
+            /**
+             * function to show Ajax-loader
+             */
+            function startPreloader() {
+                $(".loader-gif-img").css("display", "block");
+            }
+            /**
+             * function to hide Ajax-loader
+             */
+            function stopPreloader() {
+                $(".loader-gif-img").css("display", "none");
+            }
+        </script>
+
+        <script>
+            $('li.dropdown').on('mouseover', function () {
+                $(this).addClass('show');
+                $(this).find('div.dropdown-menu').addClass('show');
+                $(this).find('a').attr('aria-expanded', 'true');
+            });
+            $('li.dropdown').on('mouseout', function () {
+                $(this).removeClass('show');
+                $(this).find('div.dropdown-menu').removeClass('show');
+                $(this).find('a').attr('aria-expanded', 'false');
+            });
+
+
+
+
+            $(document).on('click', 'a#increase_font', function (e) {
+                e.preventDefault();
+                $('body').removeClass();
+                $('body').addClass('increase_font');
+            });
+            $(document).on('click', 'a#decrease_font', function (e) {
+                e.preventDefault();
+                $('body').removeClass();
+                $('body').addClass('decrease_font');
+            });
+            $(document).on('click', 'a#reset_font', function (e) {
+                e.preventDefault();
+                $('body').removeClass();
+            });
+
+
+
+
+            $(document).on('click', '#black-contrast', function (e) {
+                e.preventDefault();
+                $('body').removeClass();
+                $('body').addClass('contrast contrast2');
+            });
+
+            $(document).on('click', '#normal-contrast', function (e) {
+                e.preventDefault();
+                $('body').removeClass();
+            });
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $('.slider2').bxSlider({
+                    pager: false,
+                    auto: true,
+                    autoHover: true,
+                    speed: 1000,
+                    pause: 6000,
+
+                    // slideWidth:"1600px",
+                    // wrapperClass:"myslider",
+                    // hideControlOnEnd: true,
+                    // infiniteLoop:false,
+                });
+                $('.newsslider').bxSlider({
+                    pager: false,
+                    mode: "vertical",
+                    auto: true,
+                    controls: false,
+                    autoHover: true,
+                    speed: 4000,
+                    pause: 40,
+                    minSlides: 2,
+                    moveSlides: 1,
+
+                });
+            });
+        </script>
+
+        <script>
+            // When the user scrolls the page, execute myFunction
+            window.onscroll = function() {myFunction()};
+
+            // Get the header
+            var header = document.getElementById("myHeader");
+
+            // Get the offset position of the navbar
+            var sticky = header.offsetTop;
+
+            // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+
+</body>
+</html>
